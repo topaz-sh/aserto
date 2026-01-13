@@ -1,6 +1,6 @@
 module github.com/aserto-dev/aserto
 
-go 1.19
+go 1.23.0
 
 // replace github.com/aserto-dev/go-grpc => ../go-grpc
 
@@ -73,12 +73,11 @@ require (
 	github.com/subosito/gotenv v1.4.2 // indirect
 	golang.org/x/mod v0.10.0 // indirect
 	golang.org/x/net v0.9.0 // indirect
-	golang.org/x/oauth2 v0.7.0 // indirect
+	golang.org/x/oauth2 v0.27.0 // indirect
 	golang.org/x/sys v0.7.0 // indirect
 	golang.org/x/term v0.7.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
 	golang.org/x/tools v0.8.0 // indirect
-	google.golang.org/appengine v1.6.7 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
